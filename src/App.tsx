@@ -1,9 +1,10 @@
 import "./App.css";
+import Login from "./components/Login";
 
 function App() {
   return (
-    <div className="text-2xl text-blue-900 flex justify-center items-center h-100">
-      Hello Selvi
+    <div className="">
+      <Login />
     </div>
   );
 }
